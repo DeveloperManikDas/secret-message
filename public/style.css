@@ -19,6 +19,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
 
 .container {
@@ -26,7 +27,6 @@ body {
     /* height: 100vh; */
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ccc;
     display: flex;
     flex-direction: column;
     justify-content: center;
