@@ -19,14 +19,14 @@ app.post("/", (req, res) => {
   if (capitalizedName.toLowerCase() === "azra") {
     res.render("message.ejs", {
       name: capitalizedName,
-      title: "Today's discussion: ",
-      message: "Pick a topic and let's discuss it. I am all ears.",
+      title: "Feel free to call me on weekends😊",
+      message: "Due to some internal reason, I am not able to call anyone on weekdays.",
     });
   } else if (capitalizedName.toLowerCase() === "shristi") {
     res.render("message.ejs", {
       name: capitalizedName,
-      title: "Tried calling you on (3-7-24 at around 10:40 and 11:40)",
-      message: "Feel free to call me back. I am always here for you. If I don't pick up, you know what to do.",
+      title: "Feel free to call me on weekends😊",
+      message: "Due to some internal reason, I am not able to call anyone on weekdays. As you told me, I tried to call you but unfortunately I was not able to connect with you.",
     });
   } else {
     res.render("message.ejs", {
