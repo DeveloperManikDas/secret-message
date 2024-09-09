@@ -24,13 +24,13 @@ app.post("/", (req, res) => {
     });
   }
   
-  //  else if (capitalizedName.toLowerCase() === "shristi") {
-  //   res.render("message.ejs", {
-  //     name: capitalizedName,
-  //     title: "Feel free to call me on weekends😊",
-  //     message: "",
-  //   });
-  // }
+   else if (capitalizedName.toLowerCase() === "shristi") {
+    res.render("message.ejs", {
+      name: capitalizedName,
+      title: "It's been a long time since we talked.",
+      message: "If you are free, let's catch up.",
+    });
+  }
 
   else {
     res.render("message.ejs", {
