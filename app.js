@@ -27,8 +27,8 @@ app.post("/", (req, res) => {
    else if (capitalizedName.toLowerCase() === "shristi") {
     res.render("message.ejs", {
       name: capitalizedName,
-      title: "It's been a long time since we talked.",
-      message: "If you are free, let's catch up.",
+      title: "Happy Chhat Puja, Shristi",
+      message: "I thought of using Josh today, and I suddenly noticed that you changed your dp. I don't know whether is it for me or someone else, but I tried calling you, but you didn't answer. That's it",
     });
   }
 
